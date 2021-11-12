@@ -1,0 +1,449 @@
+body {
+    background-color: #111111;
+}
+.container-tad-yonalishlar{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.tadbir-yonalishlar{
+    max-width: 600px;
+    margin-top: 40px;
+
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 100%;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+
+    }
+    &__text{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 60px;
+        line-height: 100%;      
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 0.5px;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+}
+
+.active-boxes1-h{
+    max-width: 600px;
+}
+.span-for-small-size{
+    font-size: 18px;
+    font-weight: normal;
+}
+.section-yonalish{
+    background-image: url(./../../image/yonalishlar-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 758px;
+
+}
+
+
+.tadbir-yonalishlar__box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+    background-image: url(./../../image/tadbir-yonalish-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    
+
+    &__boxes1{
+        display: flex;
+        flex-direction: column;
+
+        &__heading{
+            max-width: 460px;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 130%;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            padding-top: 40px;
+            padding-left: 40px;
+        }
+        &__text{
+            margin: 0;
+            padding: 0;
+            max-width: 818px;
+            font-family: "Montserrat", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 130%;
+            color: #BDBDBD;
+            margin-bottom: 44px;
+            padding-left: 40px;
+        }
+    }  
+}
+
+
+
+.tadbir-yonalishlar__box__boxes1__wrap{
+    display: flex;
+}
+.tadbir-yonalishlar__box__boxes1__wrap__left{
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    margin-right: 87px;
+    padding-left: 75px;
+
+    &::before{
+        content: "";
+        background-image: url(./../../image/tadbir-yonalish-location.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20px;
+        height: 34px;
+        display: block;
+        position: absolute;
+        margin-left: -27px;
+        margin-top: -5px;
+    }
+}
+.tadbir-yonalishlar__box__boxes1__wrap__info{
+    display: flex;
+    flex-direction: column;
+    max-width: 135px;
+
+    &__text1{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        color: #E0E0E0;
+        margin-bottom: 12px;
+
+        &::before{
+            content: "";
+            background-image: url(./../../image/tadbir-yonalish-calendar.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 20px;
+            height: 20px;
+            display: block;
+            position: absolute;
+            margin-left: -25px;
+            margin-top: -4px;
+        }
+
+    }
+    &__text2{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: right;
+        color: #E0E0E0;
+        margin-bottom: 41px;
+
+        &::before{
+            content: "";
+            background-image: url(./../../image/tadbir-yonalish-oclock.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 20px;
+            height: 20px;
+            display: block;
+            position: absolute;
+            margin-left: -25px;
+            margin-top: -3px;
+        }
+    }
+}
+.tadbir-yonalishlar__box__boxes1__wrap-money{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    
+    &__left{
+        display: flex;
+        // max-width: 858px;
+        // justify-content: space-between;
+
+
+        &__text1{
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 130%;
+            color: #FFFFFF;
+            padding-left: 81px;
+            padding-right: 83px;
+
+
+            &::before{
+                content: "";
+                background-image: url(./../../image/tadbir-yonalish-medal1.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 40px;
+                height: 37px;
+                display: block;
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -1px;
+            }
+        }
+        &__text2{
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 130%;
+            color: #FFFFFF;
+            padding-right: 83px;
+
+            &::before{
+                content: "";
+                background-image: url(./../../image/tadbir-yonalish-medal2.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 40px;
+                height: 37px;
+                display: block;
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -1px;
+            }
+        }
+        &__text3{
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 130%;
+            color: #FFFFFF;
+            padding-right: 84px;
+
+            &::before{
+                content: "";
+                background-image: url(./../../image/tadbir-yonalish-medal3.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 40px;
+                height: 37px;
+                display: block;
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -1px;
+            }
+        }
+    }
+    &__right{
+        font-family: "Montserrat", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #F6F6F6;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+        text-decoration: none;
+        align-self: center;
+        padding: 18px 32px 18px 32px;
+        border: 1px solid #F6F6F6;
+        box-sizing: border-box;
+        // margin-left: 215px;
+        margin-bottom: 20px;
+    }
+}
+
+
+//1074
+@media only screen and (max-width: 1074px){
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text1{
+        font-size: 20px;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text2{
+        font-size: 20px;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text3{
+        font-size: 20px;
+    }
+} //1074
+
+//902
+@media only screen and (max-width: 902px){
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text1{
+        font-size: 20px;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text2{
+        font-size: 20px;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text3{
+        font-size: 20px;
+    }
+
+    .tadbir-yonalishlar__box__boxes1__wrap-money{
+        display: flex;
+        flex-direction: column;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money__right{
+        margin-top: 30px;
+    }
+    .tadbir-yonalishlar{
+        max-width: 500px;
+    }
+    .tadbir-yonalishlar__heading{
+        font-size: 50px;
+    }
+    .tadbir-yonalishlar__text{
+        font-size: 50px;
+    }
+} //902
+
+
+
+
+
+// 711
+@media only screen and (max-width: 711px){
+    .tadbir-yonalishlar__box__boxes1__wrap__left{
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap__info__text1{
+        font-weight: 400;
+        font-size: 10px;
+        // margin-left: 50px;
+        margin-bottom: 20px;
+
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap__info__text2{
+        font-weight: 400;
+        font-size: 10px;
+        // margin-left: 50px;
+        margin-bottom: 20px;
+        text-align: left;
+
+        // &::before{
+        //     margin-left: 0;
+        // }
+    }
+    .tadbir-yonalishlar__box__boxes1__text{
+        font-size: 14px;
+    }
+
+} //711
+
+
+
+
+
+
+// 601
+@media only screen and (max-width: 601px){
+    .tadbir-yonalishlar__box__boxes1__text{
+        max-width: 500px;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap__info{
+        margin-left: 75px;
+        margin-top: 30px;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money{
+        margin-top: 50px;
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text1{
+        font-weight: 500;
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 30px;
+        // max-width: 280px;
+
+        &::before{
+            margin-left: 35px;
+            margin-top: -35px;
+            
+        }
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text2{
+        font-weight: 500;
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 30px;
+        // max-width: 280px;
+
+        &::before{
+            margin-left: 35px;
+            margin-top: -35px;
+            
+        }
+    }
+    .tadbir-yonalishlar__box__boxes1__wrap-money__left__text3{
+        font-weight: 500;
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 30px;
+        // max-width: 280px;
+
+        &::before{
+            margin-left: 28px;
+            margin-top: -35px;
+            
+        }
+    }
+} //601
+
+
+
+
+
+
+
+
+
+
+
+
+

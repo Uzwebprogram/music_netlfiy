@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #111;
+    box-sizing: border-box;
+    // max-width: 1920px;
+    max-width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+* {
+    text-decoration: none;
+}
+
+* ::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
